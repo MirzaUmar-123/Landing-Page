@@ -1,0 +1,228 @@
+/* This will set margin, padding and border to none and zero, and made overflow x hidden */
+*,body{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  overflow-x: hidden;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* made a div with navbar with specific height and 100% width */
+.navbar {
+  height: 67px;
+  width: 100%;
+  overflow-y: hidden;
+}
+.navbar>.logo{
+    height: inherit;
+    width: 12%;
+    display: inline-block;
+}
+/* Accessed .sumip class using hierarchy and adjusted its position */
+.navbar>.logo>.sumip{
+    height: inherit;
+    width: inherit;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 45px;
+    position: relative;
+    top: 16px;
+}
+.navbar>.content{
+    display: inline-block;
+    height: inherit;
+    width: 60%;
+    margin-left: 7%;
+}
+.main-nav{
+    list-style-type: none;
+    height: inherit;
+    align-items: center;
+    align-content: center;
+    margin-left: 50px;
+}
+.main-nav>.nav-links{
+    display: inline;
+    margin-left: 20px;
+    align-items: center;
+}
+.list{
+    background-color: rgb(133, 133, 47);
+    outline-style: none;
+    height: 31px;
+    padding: 7px;
+    width: inherit;
+    border-radius: 24px;
+}
+.dropdown{
+    font-weight: 500px;
+    appearance: none;
+    border: 1px solid rgb(238, 233, 233);
+    height: 32px;
+    width: 126px;
+    border-radius: 24px;
+    background-color: rgb(241, 241, 241);
+    padding-left: 19px;
+}
+.dropdown:focus {
+  outline: none;
+}
+.dropdown:focus-visible {
+  outline: none;
+}
+.dropdown:focus-within {
+  outline: none;
+}
+.d2{
+    width: 133px;
+}
+.btns{
+    display: inline-block;
+    height: inherit;
+    width: 12%;
+    align-items: center;
+    align-content: center;
+    margin-left: 50px;
+    position: relative;
+    align-self: center;
+}
+.nav-btns{
+    border-radius: 24px;
+    height: 32px;
+    width: 64px;
+}
+.Register{
+    background-color: black;
+    color: white;
+}
+.Register:hover{
+    color: aqua;
+    background-color: rgb(206, 69, 6);
+}
+.English:hover{
+    background-color: rgb(240, 236, 12);
+}
+.hero{
+    height: 450px;
+    width: 100%;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+.featured{
+    overflow-y: hidden;
+    height: 30px;
+    width: 246px;
+    border: 1px solid black;
+    border-radius: 24px;
+}
+.center{
+    position: relative;
+    left: 15%;
+    border: 1px solid black;
+    width: 70%;
+    height: 405px;
+}
+.center-btn{
+    position: relative;
+    left: 45%;
+}
+.heading{
+    justify-content: center;
+    display: flex;
+    font-size: x-large;
+}
+.margin-top{
+margin-top: 30px;
+}
+.start{
+    overflow-y: hidden;
+    height: 37px;
+    width: 125px;
+    border-radius: 24px;
+}
+.justify-center{
+    justify-self: center;
+}
+.upper-center{
+    position: relative;
+    left: 76px;
+}
+.subtext{
+    padding-left: 80px;
+    font-size: smaller;
+}
+.arrow{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(96, 97, 95);
+    margin-left: 10px;
+    border-radius: 50px;
+}
+.images{
+    margin-left: 10px;
+    position: relative;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+     overflow-y: hidden;
+    height: 40px;
+    width: 100%;
+    border: 1px solid black;
+}
+.remote{
+    height: 25px;
+    width: 90px;
+    position: relative;
+    top: 5px;
+    left: 50px;
+    font-weight: bold;
+    color: rgb(109, 110, 110);
+}
+.ARC{
+    position: relative;
+    height: 25px;
+    width: 90px;
+    top: -18px;
+    left: 180px;
+    color: rgb(109, 110, 110);
+}
+.Raycast{
+    height: 25px;
+    width: 90px;
+    position: relative;
+    top:-45px;
+    left: 300px;
+    color: rgb(109, 110, 110);
+}
+.Runway{
+    height: 25px;
+    width: 90px;
+    position: relative;
+    top:-69px;
+    left: 400px;
+    font-weight: bold;
+    color: rgb(109, 110, 110);
+}
+.ramp{
+    height: 25px;
+    width: 90px;
+    position: relative;
+    top:-96px;
+    left: 520px;
+    color: rgb(109, 110, 110);
+}
+.hex{
+    overflow-y: hidden;
+     border: 1px solid black;
+    height: 22px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    width: 90px;
+    font-size: large;
+    position: relative;
+    top:-121px;
+    left: 700px;
+    color: rgb(109, 110, 110);
+}
