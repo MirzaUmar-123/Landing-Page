@@ -120,7 +120,6 @@
 .center{
     position: relative;
     left: 15%;
-    border: 1px solid black;
     width: 70%;
     height: 405px;
 }
@@ -161,7 +160,6 @@ margin-top: 30px;
     border-radius: 50px;
 }
 .images{
-    margin-left: 10px;
     position: relative;
     align-content: center;
     align-self: center;
@@ -169,14 +167,13 @@ margin-top: 30px;
      overflow-y: hidden;
     height: 40px;
     width: 100%;
-    border: 1px solid black;
 }
 .remote{
     height: 25px;
     width: 90px;
     position: relative;
-    top: 5px;
-    left: 50px;
+    top: 9px;
+    left: 330px;
     font-weight: bold;
     color: rgb(109, 110, 110);
 }
@@ -184,24 +181,24 @@ margin-top: 30px;
     position: relative;
     height: 25px;
     width: 90px;
-    top: -18px;
-    left: 180px;
+    top: -15px;
+    left: 509px;
     color: rgb(109, 110, 110);
 }
 .Raycast{
     height: 25px;
     width: 90px;
     position: relative;
-    top:-45px;
-    left: 300px;
+    top:-42px;
+    left: 636px;
     color: rgb(109, 110, 110);
 }
 .Runway{
     height: 25px;
     width: 90px;
     position: relative;
-    top:-69px;
-    left: 400px;
+    top:-66px;
+    left: 783px;
     font-weight: bold;
     color: rgb(109, 110, 110);
 }
@@ -209,20 +206,36 @@ margin-top: 30px;
     height: 25px;
     width: 90px;
     position: relative;
-    top:-96px;
-    left: 520px;
+    top:-90px;
+    left: 918px;
     color: rgb(109, 110, 110);
 }
 .hex{
     overflow-y: hidden;
-     border: 1px solid black;
     height: 22px;
     font-family: sans-serif;
     font-weight: bolder;
     width: 90px;
     font-size: large;
     position: relative;
-    top:-121px;
-    left: 700px;
+    top:-117px;
+    left: 1028px;
+    color: rgb(109, 110, 110);
+}
+.vercel{
+    height: 22px;
+    width: 90px;
+    position: relative;
+    top:-137px;
+    left: 1140px;
+    font-weight: bold;
+    color: rgb(109, 110, 110);
+}
+.discript{
+    height: 22px;
+    width: 90px;
+    position: relative;
+    top:-158px;
+    left: 1280px;
     color: rgb(109, 110, 110);
 }
